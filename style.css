@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    /* ### Neutral  */
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    font-size: 18px;
+}
+
+/* header */
+header {
+    background-image: url(/frontendmentor/huddle-landing-page-with-alternating-feature-blocks-master/images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40em;
+    background-color: var(--Very-Pale-Cyan);
+}
+
+/* header top */
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: 2em;
+    padding: 3em 4em;
+    box-sizing: content-box;
+    align-items: center;
+}
+
+
+.top div {
+    border: none;
+    background-color: white;
+    border-radius: 50px;
+    height: 3.2em;
+    width: 26vh;
+    font-size: 18px;
+    box-shadow: hsla(192, 100%, 9%, 0.10) 0px 0px 10px 2px;
+}
+
+.top div h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.bot {
+    display: flex;
+    width: 90%;
+    padding: 1em 2.5em;
+}
+
+.bot .left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1%;
+    position: relative;
+    right: -0.5em;
+}
+
+.left h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    width: 95%;
+    margin-top: 15%;
+    font-size: 40px;
+    color: hsl(192, 100%, 9%);
+}
+
+.left p {
+    margin-top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(192, 100%, 9%);
+    width: 29em;
+}
+
+.left button {
+    background-color: var(--Pink);
+    border: none;
+    width: 21.5em;
+    margin-top: 8.5%;
+    padding: 3%;
+    border-radius: 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.bot img {
+    width: 39em;
+    /* position: relative;
+    left: 27.25em; */
+}
+
+/* box */
+
+main div div {
+    display: flex;
+    flex-direction: column;
+    padding: 6em 5em;
+}
+main div img {
+    width: 20em;
+}
+
+main div h2 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 3%;
+}
+
+main div p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsla(192, 100%, 9%, 0.616);
+    width: 28em;
+}
+
+/* box1 */
+.box1 {
+    border-radius: 20px;
+    margin: 8% 7.5% 3% 7.5%;
+    display: flex;
+    padding: 2em;
+    box-shadow: hsla(192, 100%, 9%, 0.10) 0px 0px 10px 2px;
+}
+
+.box1 img{
+    margin-left: 5em;
+}
+
+/* box2 */
+
+.box2 {
+    margin: 0 7.5% 3% 7.5%;
+    border-radius: 20px;
+    display: flex;
+    padding: 2em;
+    box-shadow: hsla(192, 100%, 9%, 0.10) 0px 0px 10px 2px;
+    padding-left: 7em;
+}
+
+.box2 div{
+    padding-left: 11em;
+}
+/* box3 */
+.box3{
+    margin: 0 7.5% 5% 7.5%;
+    border-radius: 20px;
+    display: flex;
+    padding: 2em;
+    box-shadow: hsla(192, 100%, 9%, 0.10) 0px 0px 10px 2px;
+}
+.box3 img{
+    margin-left: 5em;
+}
+
+/* div button active */
+
+div.button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2em 19em;
+    box-shadow: hsla(192, 100%, 9%, 0.301) 0px 7px 15px 0px;
+    position:relative;
+    top: 7em;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.button h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top:2em ;
+    color: hsl(192, 100%, 9%);
+    font-size: 30px;
+}
+
+.button button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: var(--Pink);
+    width: 20em;
+    height:4em;
+    border-radius: 50px;
+    margin-top: 2em;
+    margin-bottom: 3em;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer{
+    background-color: var(--Very-Dark-Cyan);
+    
+}
